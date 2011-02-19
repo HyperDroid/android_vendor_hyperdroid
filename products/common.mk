@@ -45,11 +45,13 @@ PRODUCT_COPY_FILES += \
     vendor/hyperdroid/prebuilt/etc/init.d/20userinit:system/etc/init.d/20userinit \
     vendor/hyperdroid/prebuilt/etc/init.d/98zipalign:system/etc/init.d/98zipalign \
     vendor/hyperdroid/prebuilt/etc/init.d/99complete:system/etc/init.d/99complete \
+    vendor/hyperdroid/prebuilt/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml \
     vendor/hyperdroid/prebuilt/bin/handle_compcache:system/bin/handle_compcache \
     vendor/hyperdroid/prebuilt/bin/compcache:system/bin/compcache \
     vendor/hyperdroid/prebuilt/bin/fix_permissions:system/bin/fix_permissions \
     vendor/hyperdroid/prebuilt/bin/sysinit:system/bin/sysinit \
     vendor/hyperdroid/prebuilt/bin/zipalign:system/bin/zipalign \
+    vendor/hyperdroid/prebuilt/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/hyperdroid/prebuilt/xbin/htop:system/xbin/htop \
     vendor/hyperdroid/prebuilt/xbin/irssi:system/xbin/irssi \
     vendor/hyperdroid/prebuilt/xbin/powertop:system/xbin/powertop \
@@ -99,5 +101,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/hyperdroid/prebuilt/media/bootanimation.zip:system/media/bootanimation.zip
 
+# CyanogenMod specific product packages
 PRODUCT_PACKAGES += \
+    libcyanogen-dsp \
     LatinIME
