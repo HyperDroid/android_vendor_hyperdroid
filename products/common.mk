@@ -103,5 +103,6 @@ PRODUCT_COPY_FILES += \
 
 # CyanogenMod specific product packages
 PRODUCT_PACKAGES += \
+	Music3 \
     libcyanogen-dsp \
     LatinIME
