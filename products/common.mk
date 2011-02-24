@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/hyperdroid/prebuilt/bin/fix_permissions:system/bin/fix_permissions \
     vendor/hyperdroid/prebuilt/bin/sysinit:system/bin/sysinit \
     vendor/hyperdroid/prebuilt/bin/zipalign:system/bin/zipalign \
-    vendor/hyperdroid/prebuilt/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/hyperdroid/prebuilt/xbin/htop:system/xbin/htop \
     vendor/hyperdroid/prebuilt/xbin/irssi:system/xbin/irssi \
     vendor/hyperdroid/prebuilt/xbin/powertop:system/xbin/powertop \
