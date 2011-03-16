@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
 
     PRODUCT_COPY_FILES += \
 	vendor/hyperdroid/proprietary/gapps/app/GenieWidget.apk:/system/app/GenieWidget.apk \
-	vendor/hyperdroid/proprietary/gapps/app/Gmail.apk:/system/app/Gmail.apk \
 	vendor/hyperdroid/proprietary/gapps/app/GoogleBackupTransport.apk:/system/app/GoogleBackupTransport.apk \
 	vendor/hyperdroid/proprietary/gapps/app/GoogleCalendarSyncAdapter.apk:/system/app/GoogleCalendarSyncAdapter.apk \
 	vendor/hyperdroid/proprietary/gapps/app/GoogleContactsSyncAdapter.apk:/system/app/GoogleContactsSyncAdapter.apk \
@@ -73,28 +72,29 @@ PRODUCT_COPY_FILES += \
 	vendor/hyperdroid/proprietary/gapps/app/GooglePartnerSetup.apk:/system/app/GooglePartnerSetup.apk \
 	vendor/hyperdroid/proprietary/gapps/app/GoogleQuickSearchBox.apk:/system/app/GoogleQuickSearchBox.apk \
 	vendor/hyperdroid/proprietary/gapps/app/GoogleServicesFramework.apk:/system/app/GoogleServicesFramework.apk \
-	vendor/hyperdroid/proprietary/gapps/app/kickback.apk:/system/app/Kickback.apk \
 	vendor/hyperdroid/proprietary/gapps/app/LatinImeTutorial.apk:/system/app/LatinImeTutorial.apk \
-	vendor/hyperdroid/proprietary/gapps/app/Maps.apk:/system/app/Maps.apk \
 	vendor/hyperdroid/proprietary/gapps/app/MarketUpdater.apk:/system/app/MarketUpdater.apk \
 	vendor/hyperdroid/proprietary/gapps/app/MediaUploader.apk:/system/app/MediaUploader.apk \
-	vendor/hyperdroid/proprietary/gapps/app/Microbes.apk:/system/app/Microbes.apk \
 	vendor/hyperdroid/proprietary/gapps/app/NetworkLocation.apk:/system/app/NetworkLocation.apk \
 	vendor/hyperdroid/proprietary/gapps/app/OneTimeInitializer.apk:/system/app/OneTimeInitializer.apk \
 	vendor/hyperdroid/proprietary/gapps/app/SetupWizard.apk:/system/app/SetupWizard.apk \
-	vendor/hyperdroid/proprietary/gapps/app/soundback.apk:/system/app/Soundback.apk \
-	vendor/hyperdroid/proprietary/gapps/app/Street.apk:/system/app/Street.apk \
 	vendor/hyperdroid/proprietary/gapps/app/Talk.apk:/system/app/Talk.apk \
-	vendor/hyperdroid/proprietary/gapps/app/talkback.apk:/system/app/Talkback.apk \
 	vendor/hyperdroid/proprietary/gapps/app/Vending.apk:/system/app/Vending.apk \
-	vendor/hyperdroid/proprietary/gapps/app/VoiceSearch.apk:/system/app/VoiceSearch.apk \
-	vendor/hyperdroid/proprietary/gapps/app/YouTube.apk:/system/app/YouTube.apk \
 	vendor/hyperdroid/proprietary/gapps/etc/permissions/android.software.sip.voip.xml:/system/etc/permissions/android.software.sip.voip.xml \
 	vendor/hyperdroid/proprietary/gapps/etc/permissions/com.google.android.maps.xml:/system/etc/permissions/com.google.android.maps.xml \
 	vendor/hyperdroid/proprietary/gapps/etc/permissions/features.xml:/system/etc/permissions/features.xml \
 	vendor/hyperdroid/proprietary/gapps/framework/com.google.android.maps.jar:/system/framework/com.google.android.maps.jar \
-	vendor/hyperdroid/proprietary/gapps/lib/libmicrobes_jni.so:/system/lib/libmicrobes_jni.so \
 	vendor/hyperdroid/proprietary/gapps/lib/libvoicesearch.so:/system/lib/libvoicesearch.so
+	#vendor/hyperdroid/proprietary/gapps/app/Gmail.apk:/system/app/Gmail.apk \
+	#vendor/hyperdroid/proprietary/gapps/app/kickback.apk:/system/app/Kickback.apk \
+	#vendor/hyperdroid/proprietary/gapps/app/soundback.apk:/system/app/Soundback.apk \
+	#vendor/hyperdroid/proprietary/gapps/app/talkback.apk:/system/app/Talkback.apk \
+	#vendor/hyperdroid/proprietary/gapps/app/Street.apk:/system/app/Street.apk \
+	#vendor/hyperdroid/proprietary/gapps/app/Microbes.apk:/system/app/Microbes.apk \
+	#vendor/hyperdroid/proprietary/gapps/app/Maps.apk:/system/app/Maps.apk \
+	#vendor/hyperdroid/proprietary/gapps/app/VoiceSearch.apk:/system/app/VoiceSearch.apk \
+	#vendor/hyperdroid/proprietary/gapps/app/YouTube.apk:/system/app/YouTube.apk \
+	#vendor/hyperdroid/proprietary/gapps/lib/libmicrobes_jni.so:/system/lib/libmicrobes_jni.so \
 
 # add the new boot animation
 PRODUCT_COPY_FILES += \
